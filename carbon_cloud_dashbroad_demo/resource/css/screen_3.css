@@ -1,0 +1,118 @@
+.hr {
+    height: 2px;
+    background-color: #000;
+    opacity: 0.1;
+}
+
+.fa-check-circle {
+    color: green;
+}
+
+.fa-times-circle {
+    color: red;
+}
+
+.fa-exclamation-circle {
+    color: coral;
+}
+
+.content {
+    height: 95%;
+    background-color: rgb(240, 240, 240);
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 94%;
+}
+
+.sub-content-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.sub-content-1 > button {
+    border: 0;
+    background-color: blue;
+    color: white;
+    width: 12%;
+    height: 40px;
+    text-align: left;
+}
+
+.sub-content-2 {
+    padding: 0 10px;
+    display: grid;
+    grid-template-columns: 1fr 0.6fr;
+    grid-column-gap: 20px;
+}
+
+.sub-content-2-1 {
+    padding: 20px 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.sub-content-2-1 > button {
+    width: 20%;
+    height: 40px;
+    border: 0.5px solid blue;
+    color: blue;
+    background-color: white;
+    text-align: left;
+}
+
+.sub-content-2-1-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sub-content-2-1-2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.sub-content-2-1-2 > *{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-content-2-2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.sub-content-2-2-same {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 20px;
+    justify-content: space-around;
+    background-color: white;
+    padding: 20px;
+}
+
+.sub-content-2-2-same > button {
+    border: 0.5px solid blue;
+    width: 30%;
+    height: 40px;
+    text-align: left;
+    background-color: white;
+}
+
+.sub-content-2-2-same:last-child {
+    background-image: url('https://images.unsplash.com/photo-1525957067591-2e017b3e881d?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.sub-content-2-2-same:last-child > button {
+    background-color: blue;
+    color: white;
+    border: 0.5px solid white;
+}

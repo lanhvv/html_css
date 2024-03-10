@@ -1,0 +1,120 @@
+.hr {
+    height: 2px;
+    background-color: #000;
+    opacity: 0.1;
+    margin-bottom: 15px;
+}
+
+.content {
+    margin-top: 20px;
+    padding-right: 20px;
+    width: 94%;
+    /* height: 100%; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100%;
+    grid-column-gap: 1%;
+}
+
+.sub-content {
+    padding: 15px;
+    background-color: rgb(244, 244, 244);
+}
+
+
+.sub-content-a-2-1 {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sub-content-a-2 > h2 {
+    margin: 0px;
+}
+
+.sub-content-a-2-1-1 {
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+    grid-column-gap: 5px;
+}
+
+.sub-content-a-3-1 {
+    display: grid;
+    grid-template-columns: 1fr 0.1fr;
+}
+
+.sub-content-a-4 {
+    padding-bottom: 15px;
+}
+
+.sub-content-a-4 > * {
+    width: 40%;
+    text-align: left;
+}
+
+.sub-content-a-4 > .sub-content-a-4-1 {
+    color: #fff;
+    background-color: blue;
+    border: 0;
+}
+
+.sub-content-a-4 > .sub-content-a-4-2 {
+    border: 0.5px solid blue;
+    color: blue;
+}
+
+.sub-content-a-5 > button {
+    width: 40%;
+    border: 0;
+    background-color: red;
+    color: #fff;
+    text-align: left;
+}
+
+.sub-content-b-2-same {
+    margin: 12px 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.sub-content-b-2-1 {
+    margin: 15px 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.sub-content-b-2-1 > input {
+    width: 70%;
+}
+
+.sub-content-b-3-same {
+    margin: 12px 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.sub-content-c-2-1 > * {
+    width: 100%;
+}
+
+.sub-content-c-2-2 {
+    display: grid;
+    grid-template-columns: calc(60% - 5px) calc(40% - 5px);
+    grid-column-gap: 10px;
+}
+
+.sub-content-c-2-1, .sub-content-c-2-2 {
+    margin: 10px 0;
+}
+
+.sub-content-c-3 > button {
+    border: 0;
+    color: white;
+    background-color: red;
+    width: 40%;
+    text-align: left;
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <title>Document</title>
+    <link rel="stylesheet" href="./resource/css/index.css">
+    <link rel="stylesheet" href="./resource/css/screen_1.css">
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/5b1306fc08.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="navigation">
+            <a href="./index.html"><i class="fas fa-list"></i></a>
+            <a href="./resource/html/screen_2.html"><i class="fas fa-home"></i></a>
+            <a href="./resource/html/screen_3.html"><i class="fas fa-cloud"></i></a>
+            <a href=""><i class="fas fa-plus"></i></a>
+        </div>
+        <div class="content">
+            <div class="sub-content">
+                <div class="sub-content-a-1">
+                    <h2>User setting</h2>
+                    <p>Fill down your personal info.</p>
+                </div>
+                <div class="hr"></div>
+                <div class="sub-content-a-2">
+                    <h2>Personal Info</h2>
+                    <div class="sub-content-a-2-1">
+                        <div class="sub-content-a-2-1-1">
+                            <input type="text" placeholder="First Name">
+                            <input type="text" placeholder="Last Name">
+                        </div>
+                        <select name="" id="">
+                            <option value="">Country</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="hr"></div>
+                <div class="sub-content-a-3">
+                    <h2>Notifications</h2>
+                    <div class="sub-content-a-3-1">
+                        <p>Weekly Reports</p>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                        </div>
+                        <p>Pull request</p>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                        </div>
+                        <p>Deployment Triggers</p>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="hr"></div>
+                <div class="sub-content-a-4">
+                    <button class="sub-content-a-4-1">Save</button>
+                    <button class="sub-content-a-4-2">Cancel</button>
+                </div>
+                <div class="hr"></div>
+                <div class="sub-content-a-5">
+                    <h2>Danger Zone</h2>
+                    <button>Delete Account</button>
+                </div>
+            </div>
+            <div class="sub-content">
+                <div class="sub-content-b-1">
+                    <h2>Automation</h2>
+                    <p>Save time by enabling these settings.</p>
+                </div>
+                <div class="hr"></div>
+                <div class="sub-content-b-2">
+                    <h2>Security</h2>
+                    <div class="sub-content-b-2-same">
+                        <p>Run security checks upon log in</p>
+                        <input type="checkbox">
+                    </div>
+                    <div class="sub-content-b-2-same">
+                        <p>Rotate private keys every months</p>
+                        <input type="checkbox">
+                    </div>
+                    <div class="sub-content-b-2-same">
+                        <p>Automatically shut down idle instances</p>
+                        <input type="checkbox">
+                    </div>
+                    <div class="sub-content-b-2-same">
+                        <p>Enforce two-factor authentication</p>
+                        <input type="checkbox">
+                    </div>
+                    <div class="sub-content-b-2-same">
+                        <p>Always upgrade vulnerable dependencies</p>
+                        <input type="checkbox">
+                    </div>
+                </div>
+                <div class="hr"></div>
+                <div class="sub-content-b-2">
+                    <h2>Password Policy Strictnes</h2>
+                    <div class="sub-content-b-2-1">
+                        <p>Less</p>
+                        <input type="range">
+                        <p>More</p>
+                    </div>
+                </div>
+                <div class="hr"></div>
+                <div class="sub-content-b-3">
+                    <h2>Data Backups</h2>
+                    <div class="sub-content-b-3-same">
+                        <p>Store to different regions</p>
+                        <input type="radio" name="" id="">
+                    </div>
+                    <div class="sub-content-b-3-same">
+                        <p>Create duplicates in same region</p>
+                        <input type="radio" name="" id="">
+                    </div>
+                    <div class="sub-content-b-3-same">
+                        <p>Soft backups on instances</p>
+                        <input type="radio" name="" id="">
+                    </div>
+                </div>
+            </div>
+            <div class="sub-content">
+                <div class="sub-content-c-1">
+                    <h2>Billing</h2>
+                    <p>Please, update your billing info.</p>
+                </div>
+                <div class="hr"></div>
+                <div class="sub-content-c-2">
+                    <h2>credit Card</h2>
+                    <div class="sub-content-c-2-1">
+                        <input type="text" placeholder="Card Number">
+                    </div>
+                    <div class="sub-content-c-2-2">
+                        <input type="text" placeholder="Expiration MM / YY">
+                        <input type="text" placeholder="CVC">
+                    </div>
+                </div>
+                <div class="hr"></div>
+                <div class="sub-content-c-3">
+                    <h2>Danger Zone</h2>
+                    <button>Delete Account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
